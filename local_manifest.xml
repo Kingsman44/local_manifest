@@ -5,10 +5,10 @@
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="aex-12" />
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="Rn4" revision="fluid-12" />
 
-        <remove-project name="hardware/qcom-caf/wlan" />
+        <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="Rn4" revision="12.0" />
-        <remove-project name="frameworks/opt/telephony" />
+        <remove-project name="android_frameworks_opt_telephony" />
         <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Rn4" revision="12.0" />
-        <remove-project name="frameworks/native" />
+        <remove-project name="android_frameworks_native" />
         <project path="frameworks/native" name="android_frameworks_native" remote="Rn4" revision="12.0" />
 </manifest>
