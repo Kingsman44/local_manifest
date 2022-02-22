@@ -7,8 +7,6 @@
 
         <remove-project name="LineageOS/android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="Rn4" revision="12.0" />
-        <remove-project name="crdroidandroid/android_frameworks_opt_telephony" />
-        <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Rn4" revision="12.0" />
         <remove-project name="crdroidandroid/android_frameworks_native" />
         <project path="frameworks/native" name="android_frameworks_native" remote="Rn4" revision="12.0" />
 </manifest>
