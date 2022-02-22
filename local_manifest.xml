@@ -3,7 +3,7 @@
   <remote name="Rn4" fetch="https://github.com/Redmi-note-4x" />
         <project path="device/xiaomi/mido" name="platform_device_xiaomi_mido" remote="Rn4" revision="staging" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Rn4" revision="staging" />
-        <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="Rn4" revision="fluid-12" />
+        <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="Rn4" revision="staging" />
 
         <remove-project name="LineageOS/android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="Rn4" revision="12.0" />
